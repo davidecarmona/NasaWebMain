@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- Style -->
+        <link href="css/style.css" rel="stylesheet"/>
+        <!-- MDB icon -->
+    <!-- Font Awesome -->
+    <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+          />
+    <!-- Google Fonts Roboto -->
+    <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+          />
+    <!-- MDB -->
+    <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+          rel="stylesheet"
+          />
+</head>
+<body>
+      <!-- Three.js core -->
+      <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+      ></script>
+      <!-- Three.js setup -->
+      <script src="js/OrbitControls.js"></script>
+      <script src="js/solarSystem.js" type="module"></script>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+              <!-- Toggle button -->
+              <button
+                data-mdb-collapse-init
+                class="navbar-toggler"
+                type="button"
+                data-mdb-target="#navbarCenteredExample"
+                aria-controls="navbarCenteredExample"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+          
+              <!-- Collapsible wrapper -->
+              <div
+                class="collapse navbar-collapse justify-content-center"
+                id="navbarCenteredExample"
+              >
+                <!-- Left links -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <img src="img/nasalogo.jpg" height="40" style="border-radius: 30%;">
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="planets.html" style="color: white;">Planets</a>
+                  </li>
+                </ul>
+                <!-- Left links -->
+              </div>
+              <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+          </nav>
+    </header>
+    
+    
+    
+    <main>
+        <!-- <div class="container">
+            <section> -->
+                <canvas class="webgl"></canvas>
+            <!-- </section>
+        </div> -->
+    </main>
+    
+    
+    
+    <footer>
+        <!-- Copyright -->
+  <!-- <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div> -->
+  <!-- Copyright -->
+    </footer>
+</body>
+</html>

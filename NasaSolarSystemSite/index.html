@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+          />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+          />
+    <!-- Google Fonts Roboto -->
+    <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+          />
+    <!-- MDB -->
+    <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+          rel="stylesheet"
+          />
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+      <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"
+      ></script>
+      <script src="/js/api.js" defer></script>
+      <!-- Three.js core -->
+      <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+      ></script>
+      <!-- Three.js setup -->
+      <script src="js/OrbitControls.js"></script>
+      <script src="js/solarSystem.js" type="module"></script>
+
+
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+              <!-- Toggle button -->
+              <button
+                data-mdb-collapse-init
+                class="navbar-toggler"
+                type="button"
+                data-mdb-target="#navbarCenteredExample"
+                aria-controls="navbarCenteredExample"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+          
+              <!-- Collapsible wrapper -->
+              <div
+                class="collapse navbar-collapse justify-content-center"
+                id="navbarCenteredExample"
+              >
+                <!-- Left links -->
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <img src="img/nasalogo.jpg" height="40" style="border-radius: 30%;">
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="3dsolarsystemPage.html" style="color: white;" >Solar System</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="planets.html" style="color: white;" >Planets</a>
+                  </li>
+            </ul>
+                <!-- Left links -->
+            </div>
+              <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+          </nav>
+    </header>
+
+
+
+    <main>
+      <div class="container">
+        <section>
+          <div class="d-flex justify-content-center align-items-center vh-100">
+            <!-- Carousel wrapper -->
+            <div id="carouselBasicExample" class="carousel slide carousel-fade w-responsive" data-mdb-ride="carousel" data-mdb-carousel-init>
+              <!-- Indicators -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-mdb-target="#carouselBasicExample"
+                  data-mdb-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-mdb-target="#carouselBasicExample"
+                  data-mdb-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-mdb-target="#carouselBasicExample"
+                  data-mdb-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+          
+              <!-- Inner -->
+              <div class="carousel-inner">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                  <img src="img/landingpage1.jpg" class="d-block w-100" alt="Sunset Over the City"/>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Earth</h5>
+                    <p>The blue planet</p>
+                  </div>
+                </div>
+          
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <img src="img/landingpage2.jpg" class="d-block w-100" alt="Canyon at Nigh"/>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>The Sun</h5>
+                    <p>The brightest star</p>
+                  </div>
+                </div>
+          
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <img src="img/landingpage3.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>The milky way</h5>
+                    <p>Our galaxy</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Inner -->
+          
+              <!-- Controls -->
+              <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- Carousel wrapper -->
+          </div>
+        </section>
+
+        <section class="my-5 rounded">
+          <div class="row">
+            <div class="col text-center">
+              <h2 style="color: white;">Immagine del Giorno</h2>
+              <p>Scopri l'immagine più recente del giorno!</p>
+              <a href="imageoftheday.html" class="btn btn-primary buttonIOTD">Vai alla Immagine del Giorno</a>
+            </div>
+          </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+    </footer>
+  </body>
+</html>

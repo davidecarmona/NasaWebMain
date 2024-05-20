@@ -1,0 +1,106 @@
+.webgl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -9999999;
+  }
+
+body{
+    background: hsl(0, 0%, 95%);
+    background-image: url(/img/milkyWay.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.but{
+  color: black; 
+}
+
+.link-styling {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.titleIOTD{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.dateIOTD{
+  font-size: 20px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+}
+.imageIOTD{
+  width: 30rem;
+  height: 30rem;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+}
+.explanationIOTD{
+  font-size: 14px;
+  text-align: justify;
+}
+.creditIOTD{
+  font-size: 14px;
+  margin-top: 20px;
+  border: 1px solid white;
+}
+.creditIOTD a{
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.creditIOTD a:hover{
+  text-decoration: underline;
+}
+.containerrrrrr{
+  width: 100%;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  background: #1f1c2c;
+  padding: 20px;
+  text-align: center;
+}
+
+#headerButton {
+  position: absolute; /* Posizionamento assoluto rispetto al contenitore padre */
+  top: 10px; /* Distanza dal top */
+  left: 10px; /* Distanza da sinistra */
+  background-color: transparent;
+  border-radius: 30%;
+  padding: 0px; /* Aggiungi spazio intorno al button per renderlo più grande */
+  z-index: 1000; /* Assicura che il button sia sopra ad altri elementi */
+}
+
+#headerButton img {
+  width: 30px; /* Imposta la larghezza desiderata per l'immagine */
+  height: auto; /* Mantieni l'aspetto proporzionato */
+}
+
+.buttonIOTD{
+  background-color: black;
+  color: lightcyan;
+}
+.buttonIOTD:hover {
+  background-color: rgba(100, 50, 0, 0.5); /* Nuovo colore di sfondo */
+}
+
+/* Stile per sovrascrivere i bordi arrotondati */
+.rounded {
+  padding: 20px;
+  background-color: rgba(55, 55, 55, 0.2); /* Colore di sfondo */
+  width: 300px; /* Larghezza fissa */
+  margin: 0 auto; /* Centra orizzontalmente */
+  border-radius: 15px; /* Bordi arrotondati */
+  overflow: hidden; /* Assicura che i contenuti non sforino i bordi arrotondati */
+  border: 1px solid white;
+}
